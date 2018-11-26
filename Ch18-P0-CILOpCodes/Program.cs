@@ -12,5 +12,9 @@ namespace Ch18_P0_CILOpCodes
         {
 
         }
+        static int Add(int x, int y)
+        {
+            return x + y;
+        }
     }
 }
