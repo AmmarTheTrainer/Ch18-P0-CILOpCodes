@@ -10,7 +10,12 @@ namespace Ch18_P0_CILOpCodes
     {
         static void Main(string[] args)
         {
-
+           
+        }
+        public void PrintMessage()
+        {
+            string myMessage = "Hello.";
+            Console.WriteLine(myMessage);
         }
         static int Add(int x, int y)
         {
